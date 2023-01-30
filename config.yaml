@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 server: 
   
-  ami_type: 'insert_ami
+  ami_type: 'insert_ami'
   
   instance_type: insert_instance_type
   
