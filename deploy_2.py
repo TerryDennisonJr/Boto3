@@ -24,10 +24,10 @@ def deploy():
     outfile.write(KeyPairOut)
     
     # sets permissions of .pem file to 444
-    os.chmod('/Users/terrydennison/Desktop/Python Projects/Boto3/ec2-keypair.pem', 0o444)
+    os.chmod('path_to_.pem_file', 0o444)
 
     # extraction of YAML file and setting of YAML file location
-    with open(r'//Users/terrydennison/Desktop/Python Projects/Boto3/config.yaml') as file:
+    with open(r'path_to.yaml_file') as file:
 
         server_specs = yaml.safe_load(file)
         
