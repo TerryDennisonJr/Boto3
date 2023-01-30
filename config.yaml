@@ -1,0 +1,29 @@
+# -*- coding: utf-8 -*-
+server: 
+  
+  ami_type: 'ami-026b57f3c383c2eec'
+  
+  architecture: x86_64
+  
+  instance_type: t2.micro
+  
+  max_count: 1
+  
+  min_count: 1
+  
+  root_device_type: ebs
+  
+  users: 
+    - 
+      login: user1
+      ssh_key: "--user1 ssh public key goes here-- user1@localhost"
+
+  virtualization_type: hvm
+  
+  volumes: 
+    - 
+      device: /dev/xvda
+      mount: /
+      size_gb: 10
+      type: xfs
+
