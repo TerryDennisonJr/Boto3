@@ -39,11 +39,6 @@ def deploy():
         instance_type = config['instance_type']
         ec2_Min = config['min_count']
         ec2_Max = config['max_count']
-        # #user_1 = config['users'][0]['login']
-        # #user_1_SSH = config['users'][0]['ssh_key']
-        # vol1_device = config['volumes'][0]['device']
-        # vol1_size = config['volumes'][0]['size_gb']
-
 
         print('\nData extracted from YAML file...')
         
