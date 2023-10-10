@@ -42,7 +42,7 @@ def deploy():
 
         print('\nData extracted from YAML file...')
         
-        # creation of aAWS ec2 instance with items from Yaml file
+        # creation of AWS ec2 instance with items from Yaml file
         instances = ec2.create_instances(
             ImageId=ami,
             MinCount=ec2_Min,
